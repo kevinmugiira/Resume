@@ -33,6 +33,8 @@
           <div class="site-nav">
             <nav role="navigation">
               <ul class="nav justify-content-center">
+                  <li class="nav-item"><a class="nav-link" href="{{url('welcome')}}" title="Welcome"><span class="menu-title">Welcome</span></a>
+                  </li>
                 <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>

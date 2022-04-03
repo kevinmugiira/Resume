@@ -19,5 +19,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('welcome', function (){
+    return view('welcome');
+});
+
 Route::resource('home', HomeController::class);
 Route::post('/send-mail', [HomeController::class,'sendEmail'])->name('contact.send');
