@@ -244,10 +244,10 @@
         </div>
         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
           <div class="timeline-head px-4 pt-3">
-            <div class="h5">Bachelor of Computer Science <span class="text-muted h6">from Regional College</span>          </div>
+            <div class="h5">PHP enthusiast <span class="text-muted h6">from Kenyatta University</span>          </div>
           </div>
           <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">2007 - 2011</div>
+            <div class="text-muted text-small mb-3">2019 - 2020</div>
             <div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</div>
           </div>
         </div>
@@ -304,7 +304,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="d-flex mb-2">
-            <div class="avatar"><img src="{{asset('asset/images/reference-image-1.jpg')}}" width="60" height="60"/></div>
+            <div class="avatar"><img src="{{asset('asset/images/avatar2.png')}}" width="60" height="60"/></div>
             <div class="header-bio m-3 mb-0">
               <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Hilda</h3>
               <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CEO / Kaskara</p>
@@ -316,7 +316,7 @@
         </div>
         <div class="col-md-6">
           <div class="d-flex mb-2">
-            <div class="avatar"><img src="{{asset('asset/images/reference-image-2.jpg')}}" width="60" height="60"/></div>
+            <div class="avatar"><img src="{{asset('asset/images/avatar2.png')}}" width="60" height="60"/></div>
             <div class="header-bio m-3 mb-0">
               <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Timothy</h3>
               <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">MD / Net-Co</p>

@@ -8,10 +8,10 @@
     <title>Contact Form</title>
 </head>
 <body>
-<h1>Messages for contact</h1>
-<p>Name : {{$details['name']}}</p>
-<p>Email : {{$details['email']}}</p>
-<p>Message : {{$details['message']}}</p>
+      <h1>Messages for contact</h1>
+      <p>Name : {{$details['name']}}</p>
+      <p>Email : {{$details['email']}}</p>
+      <p>Message : {{$details['message']}}</p>
 
 </body>
 </html>
