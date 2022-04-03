@@ -29,9 +29,17 @@
       <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
           <h1 class="site-title mb-0">Kevin Mugiira</h1>
-
           <div class="site-nav">
-            <nav role="navigation">
+
+
+              @if(Session::get('message_sent'))
+                  <div class="alert alert-success" role="alert">
+                      {{Session::get('message_sent')}}
+                  </div>
+              @endif
+
+
+              <nav role="navigation">
               <ul class="nav justify-content-center">
                   <li class="nav-item"><a class="nav-link" href="{{url('welcome')}}" title="Welcome"><span class="menu-title">Welcome</span></a>
                   </li>
@@ -324,12 +332,6 @@
   <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
     <div class="contant-section">
       <h2 class="h2 fw-light text mb-4">Contact</h2>
-
-        @if(Session::get('message_sent'))
-            <div class="alert alert-success" role="alert">
-                {{Session::get('message_sent')}}
-            </div>
-        @endif
 
       <div class="row mb-4">
         <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
